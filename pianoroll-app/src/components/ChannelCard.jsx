@@ -4,8 +4,20 @@ import { Link } from "react-router-dom";
 import { demoProfilePicture } from "../utils/constansts";
 import { Box, CardContent, CardMedia, Typography } from "@mui/material";
 
-const ChannelCard = ({ channelDetail }) => (
-  <Box sx={{ boxShadow: "none", borderRadius: "20px" }}>
+const ChannelCard = ({ channelDetail, marginTop }) => (
+  <Box
+    sx={{
+      boxShadow: "none",
+      borderRadius: "20px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "cover",
+      width: { xs: "356px", md: "320px" },
+      height: "326px",
+      margin: "auto",
+      marginTop: marginTop,
+    }}
+  >
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
       <CardContent
         sx={{
@@ -34,6 +46,14 @@ const ChannelCard = ({ channelDetail }) => (
           {channelDetail?.snippet?.title}
           <CheckCircle sx={{ fontSize: 14, color: "gray", ml: "5px" }} />
         </Typography>
+        {channelDetail?.statistic?.subscriberCount && (
+          <Typography>
+            {parseInt(
+              channelDetail?.statistic?.subscriberCount
+            ).toLocaleString()}{" "}
+            Subscribers
+          </Typography>
+        )}
       </CardContent>
     </Link>
   </Box>
