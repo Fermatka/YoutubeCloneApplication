@@ -1,9 +1,12 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, IconButton, Stack, Typography } from "@mui/material";
 import { SideBar, Videos } from "./";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { Link } from "react-router-dom";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("New");
@@ -32,7 +35,25 @@ const Feed = () => {
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
-          Copyright 2023 Fermatka
+          © 2023 created by Fermatka
+          <IconButton
+            href="https://www.github.com/Fermatka"
+            target="_blank"
+            rel="noopener noreferrer"
+            color="inherit"
+            className="iconButton"
+          >
+            <GitHubIcon />
+          </IconButton>
+          <IconButton
+            href="https://www.linkedin.com/in/agata-misiak"
+            target="_blank"
+            rel="noopener noreferrer"
+            color="inherit"
+            className="iconButton"
+          >
+            <LinkedInIcon />
+          </IconButton>
         </Typography>
       </Box>
       <Box p={2} sx={{ overflow: "auto", height: "90vh", flex: 2 }}>
@@ -43,7 +64,7 @@ const Feed = () => {
           sx={{ color: "white" }}
         >
           {selectedCategory}
-          <span style={{ color: "#F31503" }}> rolls</span>
+          <span style={{ color: "#F31503" }}> videos</span>
         </Typography>
         <Videos videos={videos} />
       </Box>
