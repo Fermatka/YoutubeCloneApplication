@@ -1,5 +1,11 @@
-# Getting Started with Create React App
+# Youtube clone application :notes:
 
+**Here is my Youtube clone application**
+Responsive React JS application consisting of stunning video sections, custom categories, channel pages, gives the possibility to play videos straight from your YouTube Clone App!
+
+## 1. Project installation
+
+Clone the repository
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -14,57 +20,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Screenshoots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Youtube01](https://github.com/Fermatka/YoutubeCloneApplication/assets/118021948/e5de10af-78f4-486c-8f6c-5ee7cb28c3ef)
+![youtube02](https://github.com/Fermatka/YoutubeCloneApplication/assets/118021948/5d7c4b1d-78d3-49d4-8923-3dc0a4ab8dfb)
+![youtube04](https://github.com/Fermatka/YoutubeCloneApplication/assets/118021948/97a56459-e108-4316-a16e-bf069e4e2a1d)
+![yputube03](https://github.com/Fermatka/YoutubeCloneApplication/assets/118021948/62e45617-4a58-4487-952a-9f8cfae4075a)
 
-### `npm run build`
+## Technological Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is built using the following technologies and tools:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React:** A popular JavaScript library for building user interfaces, providing a fast and efficient way to create dynamic web applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **JavaScript:** The core scripting language used for web development, enhancing interactivity and functionality.
 
-### `npm run eject`
+- **MUI (Material-UI):** A modern and customizable UI framework that provides a set of pre-designed components and styles to streamline the development of responsive and visually appealing web applications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the codebase and build upon this tech stack to create powerful web applications and user interfaces.
