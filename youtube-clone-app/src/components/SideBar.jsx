@@ -9,6 +9,7 @@ const SideBar = ({ selectedCategory, setSelectedCategory }) => (
       overflow: "auto",
       height: { sx: "auto", md: "95%" },
       flexDirection: { md: "column" },
+      marginRight: "1rem",
     }}
   >
     {categories.map((category) => (
